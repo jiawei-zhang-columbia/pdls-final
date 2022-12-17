@@ -102,7 +102,7 @@ We record test accuracy, training time, and inference time.
 The repo structure is rather simple. All the tuning and benchmarking scripts are located at the repo root. 
 
 Scripts that start with `benchmark_` are the benchmarking scripts, and scripts that start with `tune_` are the 
-tuning scripts. `resnet.py` and `tcnn.py` contains functions and classes for building ResNet-18 and Tiled CNN.
+tuning scripts. `resnet.py` and `tcnn.py` contain functions and classes for building ResNet-18 and Tiled CNN.
 
 There should be a `data` folder for storing data, a `benchmark` folder fore storing benchmarking results, a `history`
 folder for storing tuning history, and a `runs` folder for storing the best hyperparameters. However, they are not
